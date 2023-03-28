@@ -36,6 +36,7 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import com.junjange.compose_practice.ui.theme.Compose_practiceTheme
 import com.junjange.compose_practice.ui.theme.day.SearchBar
+import com.junjange.compose_practice.ui.theme.day.SootheBottomNavigation
 import com.junjange.compose_practice.utils.DummyDataProvider
 import com.junjange.compose_practice.utils.RandomUser
 
@@ -59,7 +60,8 @@ fun ContentView() {
     ) {
         Scaffold(
             backgroundColor = Color.White,
-            topBar = { MyAppBar() }
+            topBar = { MyAppBar() },
+            bottomBar = {SootheBottomNavigation()}
         )
         {
             Column() {
