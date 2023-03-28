@@ -35,6 +35,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import com.junjange.compose_practice.ui.theme.Compose_practiceTheme
+import com.junjange.compose_practice.ui.theme.day.SearchBar
 import com.junjange.compose_practice.utils.DummyDataProvider
 import com.junjange.compose_practice.utils.RandomUser
 
@@ -49,6 +50,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun ContentView() {
     // A surface container using the 'background' color from the theme
@@ -60,7 +62,10 @@ fun ContentView() {
             topBar = { MyAppBar() }
         )
         {
-            RandomUserList(randomUser = DummyDataProvider.userList)
+            Column() {
+                SearchBar()
+                RandomUserList(randomUser = DummyDataProvider.userList)
+            }
         }
 
     }
@@ -127,8 +132,9 @@ fun RandomUserView(randomUser: RandomUser) {
                     .size(width = 50.dp, height = 50.dp)
                     .clip(CircleShape)
             )
-            
-            ProfileImg(profileImgPath = randomUser.profileImagePath
+
+            ProfileImg(
+                profileImgPath = randomUser.profileImagePath
             )
             Column() {
                 Text(
@@ -185,7 +191,6 @@ fun ProfileImg(profileImgPath: String, modifier: Modifier = Modifier) {
         contentScale = ContentScale.Fit,
         modifier = imageModifier
     )
-    
 }
 
 @Preview(showBackground = true)

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">compose_practice</string>
+    <string name="title_activity_day01_screen">Day01Screen</string>
+    <string name="my_name">조준장</string>
 </resources>
