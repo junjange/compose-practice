@@ -1,0 +1,33 @@
+plugins {
+    id("com.android.library")
+    id("dagger.hilt.android.plugin")
+    kotlin("android")
+    kotlin("kapt")
+}
+
+android {
+    namespace = "com.example.compose_practice.local"
+    compileSdk = Versions.COMPILE_SDK
+
+    defaultConfig {
+        minSdk = Versions.MIN_SDK
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation(project(Modules.DATA))
+
+    implementation(libs.coroutines.android)
+    implementation(libs.datastore.preferences)
+
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+}
