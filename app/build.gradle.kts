@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.compose_practice"
+    namespace = "com.junjange.compose_practice"
     compileSdk = Versions.COMPILE_SDK
 
     defaultConfig {
-        applicationId = "com.example.compose_practice"
+        applicationId = "com.junjange.compose_practice"
         minSdk = Versions.MIN_SDK
         targetSdk = Versions.TARGET_SDK
         versionCode = Versions.VERSION_CODE
