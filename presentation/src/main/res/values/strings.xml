@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">글사진 아카이브 플랫폼</string>
+    <string name="login_sns">SNS 계정으로 간편 가입하기</string>
+    <string name="login_kakao">카카오 로그인</string>
+
+    <string name="onboard_skip">SKIP</string>
+    <string name="onboard_title_1">프라이빗\n글사진 아카이브,</string>
+    <string name="onboard_content_1">빠르게 소비하고 지나쳤던 일상에서 마주친 글사진들, 프라이빗 아카이브 피모에 저장해 언제든지 꺼내보고, 특별한 지인과 공유해보세요.</string>
+    <string name="onboard_title_2_1">OCR</string>
+    <string name="onboard_title_2_2">사진 속 글귀를 자동 인식해\n텍스트로 복사해보세요</string>
+    <string name="onboard_content_2">피모에는 글이 있는 글사진만 업로드할 수 있어요. 우리가 똑똑하게 인식한 글사진 속 텍스트를 버튼 하나로 자유롭게 복사, 공유해보세요.</string>
+    <string name="onboard_title_3_1">TTS</string>
+    <string name="onboard_title_3_2">자동 인식한 사진 속 글귀를\n음성으로 재생해보세요</string>
+    <string name="onboard_content_3">피모가 인식한 텍스트는 음성으로 변환되어 소리로 들을 수 있어요. 오디오 버튼을 이용해 사진 속 문구를 오롯이 감상해보세요.</string>
+    <string name="onboard_title_4_1">ARCHIVE</string>
+    <string name="onboard_title_4_2">초대로 공유하는\n프라이빗 아카이브</string>
+    <string name="onboard_content_4">소중한 글사진을 나만의 아카이브에 저장해보세요. 링크 공유로 원하는 친구만 초대할 수 있어요. 친구와 피모를 공유해 서로의 아카이브를 감상해보세요.</string>
+    <string name="onboard_start_fimo">피모 시작하기</string>
+
+    <string name="profile_add">프로필 생성</string>
+    <string name="profile_edit">프로필 수정</string>
+    <string name="profile_input_msg">공백없이 한글 8자 영어 16자 이하로 정해주세요</string>
+    <string name="profile_input_hint">텍스트를 입력해주세요.</string>
+    <string name="profile_input_duplicate_check">중복 확인</string>
+    <string name="profile_input_available">사용할 수 있는 이름이에요</string>
+    <string name="profile_input_form_error">한글과 영어, 숫자만 사용할 수 있어요</string>
+    <string name="profile_input_duplicate_error">이미 사용 중인 이름이에요</string>
+    <string name="profile_input_length_error">글자 수를 초과했어요</string>
+    <string name="profile_add_nickname_title">닉네임을 입력해주세요</string>
+    <string name="profile_add_archive_title">나의 아카이브 이름을 입력해주세요</string>
+    <string name="profile_add_image_title">프로필 사진을 등록해주세요</string>
+    <string name="profile_add_complete_title">아카이브 생성 완료!</string>
+    <string name="profile_add_complete_msg_1_1">프라이빗 아카이브 기능</string>
+    <string name="profile_add_complete_msg_1_2">링크 없이 접근 불가\n개인별 아카이빙 유형 선택</string>
+    <string name="profile_add_complete_msg_2_1">텍스트 자동인식 및 추출 기능</string>
+    <string name="profile_add_complete_msg_2_2">사진 속 텍스트 자동인식 및 업로드 여부 판정\n사진 속 텍스트를 추출 및 클립보드에 복사</string>
+    <string name="profile_add_complete_msg_3_1">텍스트 오디오 재생 기능</string>
+    <string name="profile_add_complete_msg_3_2">사진 속 텍스트 보이스 리딩</string>
+    <string name="profile_nickname">닉네임</string>
+    <string name="profile_archive_name">아카이브 이름</string>
+    <string name="profile_edit_exit_title">수정한 내용이 저장되지 않습니다</string>
+    <string name="profile_edit_exit_subtitle">정말 나가시겠습니까?</string>
+    <string name="profile_edit_complete">프로필 수정이 완료되었어요!</string>
+
+
+    <string name="settings">설정</string>
+    <string name="setting_profile">프로필 관리</string>
+    <string name="setting_guide">가이드 다시보기</string>
+    <string name="setting_source_license">오픈소스 라이선스</string>
+    <string name="setting_privacy_policy">개인정보 처리 방침 / 이용약관</string>
+    <string name="setting_logout">로그아웃</string>
+    <string name="setting_version">버전정보</string>
+    <string name="setting_withdrawal">회원탈퇴</string>
+    <string name="setting_logout_dialog_subtitle">정말 로그아웃하시겠습니까?</string>
+    <string name="setting_withdrawal_dialog_title">정말 탈퇴하시겠습니까?</string>
+    <string name="setting_withdrawal_dialog_subtitle">회원탈퇴 시 아카이브에 저장된\n글사진이 모두 사라집니다.</string>
+    <string name="setting_withdraw">탈퇴하기</string>
+
+    <string name="friends_post">친구 글사진</string>
+    <string name="new_post_count">오늘 새로운 게시물 %s개</string>
+
+    <string name="welcome">에 오신 것을 환영해요</string>
+    <string name="welcome_info">본인 프로필 혹은 게시물 공유로\n친구를 맺고 더 많은 글사진을 살펴볼 수 있어요</string>
+
+    <string name="copy_text">텍스트 복사하기</string>
+
+    <string name="new_post">새 글사진</string>
+    <string name="edit_post">수정하기</string>
+    <string name="post">게시하기</string>
+    <string name="thumbnail">미리보기</string>
+    <string name="first_textimage">대표 글사진</string>
+    <string name="thumbnail_help">미리보고 싶은 썸네일을 선택해주세요</string>
+    <string name="edit_post_dialog">작성 중인 게시글이 삭제됩니다</string>
+    <string name="edit_post_dialog_sub">정말 나가시겠습니까?</string>
+    <string name="non_text_image_toast">글이 존재하지 않는 사진이에요!</string>
+    <string name="non_text_image_toast_sub">글이 포함되어 있는 사진으로 업로드해주세요</string>
+
+    <string name="text_image_copy_toast">글사진 텍스트 복사 완료!</string>
+    <string name="text_image_copy_toast_sub">글사진 속 텍스트를 지인들에게 공유해보세요</string>
+
+    <string name="archiving_count">%s개의 글사진 아카이빙 중</string>
+    <string name="text_image">글사진</string>
+    <string name="empty_text_image">글사진이 존재하지 않아요</string>
+    <string name="empty_text_image_help">일상에서 마주친 글사진들을 피모에서 저장해서\n언제든 꺼내보고 특별한 지인과 공유해보세요</string>
+
+    <string name="friend_each_other">서로친구</string>
+    <string name="friend_only_me">나만친구</string>
+    <string name="friend_only_other">상대만친구</string>
+
+    <string name="friend">친구</string>
+    <string name="friend_count">%s명</string>
+    <string name="post_count">글사진 %s개</string>
+
+    <string name="order_recently">친구추가순</string>
+    <string name="order_alphabet">가나다순</string>
+
+    <string name="follow">친구신청</string>
+    <string name="unfollow">친구끊기</string>
+
+    <string name="start">시작하기</string>
+    <string name="next">다음</string>
+    <string name="cancel">취소하기</string>
+    <string name="exit">나가기</string>
+    <string name="done">완료</string>
+
+    <string name="save">저장하기</string>
+    <string name="edit">수정하기</string>
+    <string name="delete">삭제하기</string>
+    <string name="report">신고하기</string>
+</resources>
